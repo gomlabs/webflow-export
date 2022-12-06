@@ -6,32 +6,20 @@
   },
   "links_replacements": [
     {
-      "target": "\"developers.html\"",
-      "replace_by": "\"/developers\""
+      "target": "\"lore.html\"",
+      "replace_by": "\"/lore\""
     },
     {
-      "target": "\"about.html\"",
-      "replace_by": "\"/about\""
+      "target": "\"terms.html\"",
+      "replace_by": "\"/terms\""
     },
     {
-      "target": "\"faq.html\"",
-      "replace_by": "\"/faq\""
+      "target": "\"mint.html\"",
+      "replace_by": "\"/mint\""
     },
     {
       "target": "\"index.html\"",
       "replace_by": "\"/\""
-    },
-    {
-      "target": "\"pricing.html\"",
-      "replace_by": "\"/pricing\""
-    },
-    {
-      "target": "\"privacy-policy.html\"",
-      "replace_by": "\"/privacy-policy\""
-    },
-    {
-      "target": "\"terms-of-service.html\"",
-      "replace_by": "\"/terms-of-service\""
     }
   ],
   "file_links_replacement": [
@@ -44,28 +32,36 @@
       "replace_by": "../images/"
     },
     {
+      "target": "documents/",
+      "replace_by": "../documents/"
+    },
+    {
+      "target": "fonts/",
+      "replace_by": "../fonts/"
+    },
+    {
       "target": "\"js/",
       "replace_by": "\"../js/"
     }
   ],
   "transforms": [
     {
-      "name": "developers",
-      "filepath": "developers.html",
+      "name": "lore",
+      "filepath": "lore.html",
       "move_to_subfolder": true,
       "apply_links_replacements": true,
       "apply_file_links_replacements": true
     },
     {
-      "name": "about",
-      "filepath": "about.html",
+      "name": "terms",
+      "filepath": "terms.html",
       "move_to_subfolder": true,
       "apply_links_replacements": true,
       "apply_file_links_replacements": true
     },
     {
-      "name": "faq",
-      "filepath": "faq.html",
+      "name": "mint",
+      "filepath": "mint.html",
       "move_to_subfolder": true,
       "apply_links_replacements": true,
       "apply_file_links_replacements": true
@@ -76,27 +72,6 @@
       "move_to_subfolder": false,
       "apply_links_replacements": true,
       "apply_file_links_replacements": false
-    },
-    {
-      "name": "pricing",
-      "filepath": "pricing.html",
-      "move_to_subfolder": true,
-      "apply_links_replacements": true,
-      "apply_file_links_replacements": true
-    },
-    {
-      "name": "privacy-policy",
-      "filepath": "privacy-policy.html",
-      "move_to_subfolder": true,
-      "apply_links_replacements": true,
-      "apply_file_links_replacements": true
-    },
-    {
-      "name": "terms-of-service",
-      "filepath": "terms-of-service.html",
-      "move_to_subfolder": true,
-      "apply_links_replacements": true,
-      "apply_file_links_replacements": true
     }
   ]
 }
